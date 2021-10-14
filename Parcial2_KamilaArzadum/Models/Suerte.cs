@@ -5,8 +5,8 @@ namespace Parcial2_KamilaArzadum.Models
     public class Suerte
     {
         [Key]
+
         public int SuerteId { get; set; }
-        [StringLength(maximumLength: 10, MinimumLength = 1, ErrorMessage = "El numero de la suerte debe ir del 0 al 10")]
         
         public string Detalle { get; set; }
 
